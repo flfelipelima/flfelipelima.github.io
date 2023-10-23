@@ -1,0 +1,45 @@
+header {
+  justify-content: space-between;
+  max-width: 1330px;
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 1300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#logo {
+  width: 18rem;
+  padding: 1rem;
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2c2c;
+}
+
+a:hover {
+  color: var(--a-hover);
+}
+
+strong {
+  color: var(--strong-color);
+  text-transform: uppercase;
+}
