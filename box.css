@@ -1,11 +1,9 @@
-.principal {
-}
-
 .conteudo {
   display: flex;
   flex-wrap: wrap;
-  padding: auto;
   gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto; 
 }
 
 .conteudo-2 {
@@ -25,7 +23,7 @@
 
 .box-conteudo {
   display: inline;
-  width: 400px;
+  width: 330px;
   height: 250px;
   border-radius: 30px;
   background: var(--bg-box);
@@ -37,6 +35,12 @@
   text-align: center;
   padding: 46px 0px;
   position: relative;
+  display: grid;
+}
+
+.foto-perfil {
+  justify-content: center;
+  display: grid;
 }
 
 .titulo {
@@ -54,10 +58,6 @@
   color: var(--strong-color);
   font-size: 1.12rem;
   padding-top: 2.7rem;
-}
-
-.descricao {
-  color: var(--text-info);
 }
 
 .cargo {

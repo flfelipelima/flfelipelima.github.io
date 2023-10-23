@@ -1,41 +1,31 @@
 header {
+  padding: 40px 20px;
   justify-content: space-between;
-  max-width: 1330px;
   display: flex;
-  margin-bottom: 20px;
-  max-width: 1300px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; 
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
-  padding: 0px;
-  margin: 0px;
-}
-
-#logo {
-  width: 18rem;
-  padding: 1rem;
-}
-
-ul,
-li {
-  list-style: none;
+.header-menu {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  gap: 30px;
-  font-weight: normal;
-  text-transform: uppercase;
 }
 
-a {
+.header-logo {
+  width: 18rem;
+}
+
+.header-menu a {
   text-decoration: none;
   color: #2d2c2c;
+  font-size: 1.123rem;
+  line-height: 1.3;
+  padding: 8px 12px;
 }
 
-a:hover {
+.header-menu a:hover {
   color: var(--a-hover);
 }
 

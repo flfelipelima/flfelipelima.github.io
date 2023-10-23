@@ -1,3 +1,4 @@
+@import url(./global.css);
 @import url(./header.css);
 @import url(./box.css);
 
@@ -6,12 +7,6 @@
   --a-hover: #3543c6;
   --subtitulo-color: #999999;
   --strong-color: #3543c6;
-  --text-info: #2D2C2C;
+
 }
 
-body {
-  font-family: "Nunito", sans-serif;
-  display: grid;
-  margin: 50px;
-  padding-left: 42px;
-}
