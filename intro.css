@@ -1,0 +1,19 @@
+.intro {
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intro-perfil {
+  height: 530px;
+  width: 324px;
+  border-radius: 8px;
+  background: var(--bg-box);
+}
+
+.intro-foto {
+  justify-content: center;
+  display: grid;
+}
