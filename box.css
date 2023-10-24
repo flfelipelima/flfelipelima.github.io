@@ -12,6 +12,16 @@
   gap: 30px;
 }
 
+@media (max-width: 780px) {
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1;
+    width: 324px;
+  }
+}
+
 .box-conteudo {
   display: inline;
   width: 330px;
