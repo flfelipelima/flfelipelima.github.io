@@ -1,10 +1,11 @@
 .intro {
   max-width: 1200px;
+  width: 90%;
   padding: 30px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 15px;
 }
 
 .intro-perfil {
@@ -50,10 +51,4 @@
   font-size: 0.74rem;
   color: var(--strong-color);
   grid-column: 2;
-}
-
-.portfolio {
-}
-
-.contato {
 }
