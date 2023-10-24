@@ -18,3 +18,42 @@
   justify-content: center;
   display: grid;
 }
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.sobre-conteudo,
+.formacao {
+  display: grid;
+  width: 530px;
+  height: 250px;
+  border-radius: 8px;
+  background: var(--bg-box);
+  padding: 20px;
+  font-size: 0.74rem;
+  color: var(--strong-color);
+  grid-column: 1;
+}
+
+.experiencia {
+  display: grid;
+  width: 530px;
+  height: 250px;
+  border-radius: 8px;
+  background: var(--bg-box);
+  padding: 20px;
+  font-size: 0.74rem;
+  color: var(--strong-color);
+  grid-column: 2;
+}
+
+.portfolio {
+}
+
+.contato {
+}
